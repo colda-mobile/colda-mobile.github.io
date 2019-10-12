@@ -1,0 +1,1558 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 2000px;
+}
+
+header {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+header>img {
+	width: 100%;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+header>span#title>a {
+	color: #343434;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+	font-size: 2vw;
+	top: 42%;
+	left: 6%;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+header>span#title>a:hover {
+	color: #827777;
+}
+
+header>span#support>a {
+	background-color: #D9D9D9;
+	padding: 5px;
+	border-radius: 5%;
+	color: #343434;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+	font-size: 2vw;
+	top: 42%;
+	right: 10%;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+header>span#support>a:hover {
+	background-color: #F4F4F4;
+}
+
+menu {
+	width: 100%;
+}
+
+menu>div#span {
+	text-align: center;
+	margin-top: 1%;
+}
+
+menu>div#span>a {
+	text-decoration: none;
+	color: #343434;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	margin: 7%;
+	transition: 0.2s linear;
+}
+
+menu>div#span>a:hover {
+	color: #827777;
+}
+
+main {
+	width: 100%;
+	margin-top: 7%;
+}
+
+main>div#window {
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	background-color: #F8F7F7;
+	border-radius: 10px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+main>div#window>div#title {
+	padding: 5%;
+}
+
+main>div#window>div#title>span {
+	font-size: 2vw;
+	color: #343434;
+	font-family: 'Rubik', sans-serif;
+}
+
+main>div#window>div#product {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+main>div#window>div#product>img#i1 {
+	width: 25%;
+	margin-right: 3.3%;
+}
+
+main>div#window>div#product>img#i2 {
+	width: 51%;
+}
+
+main>div#window>div#product>img#i3 {
+	width: 25%;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+
+main>div#window>div#product>img#i4 {
+	width: 25%;
+}
+
+main>div#window>div#product>img#i5 {
+	width: 25%;
+	margin-left: 2%;
+}
+
+main>div#window>div#product>a {
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #FFF;
+	background-color: #343434;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	transition: 0.2s linear;
+}
+
+main>div#window>div#product>a:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+main>div#window>div#product>a#i1 {
+	float: left;
+	margin-left: 10.1%;
+	width: 23.1%;
+	padding: 1%;
+}
+
+main>div#window>div#product>a#i2 {
+	float: right;
+	margin-right: 10.1%;
+	width: 49.1%;
+	padding: 1%;
+}
+
+main>div#window>div#product>a#i3 {
+	float: left;
+	margin-left: 10.1%;
+	width: 23%;
+	padding: 1%;
+}
+
+main>div#window>div#product>a#i4 {
+	float: left;
+	margin-left: 2.4%;
+	width: 23%;
+	padding: 1%;
+}
+
+main>div#window>div#product>a#i5 {
+	float: right;
+	margin-right: 10.1%;
+	width: 23%;
+	padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+main>div#window2 {
+	margin-top: 15%;
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	background-color: #F8F7F7;
+	border-radius: 10px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+main>div#window2>div#title {
+	padding: 5%;
+}
+
+main>div#window2>div#title>span {
+	font-size: 2vw;
+	color: #343434;
+	font-family: 'Rubik', sans-serif;
+}
+
+main>div#window2>div#product {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+main>div#window2>div#product>a {
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #FFF;
+	background-color: #343434;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	transition: 0.2s linear;
+}
+
+main>div#window2>div#product>a:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+main>div#window2>div#product>img#i1 {
+	width: 35%;
+	margin-right: 20%;
+}
+
+main>div#window2>div#product>img#i2 {
+	width: 35%;
+}
+
+main>div#window2>div#product>a#i1 {
+	float: left;
+	margin-left: 5%;
+	width: 35%;
+	padding: 1%;
+	margin-top: 1%;
+}
+
+main>div#window2>div#product>a#i2 {
+	float: right;
+	margin-right: 5%;
+	margin-top: 1%;
+	width: 35%;
+	padding: 1%;
+}
+
+
+
+
+
+main>div#window3 {
+	margin-top: 15%;
+	margin-bottom: 15%;
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	background-color: #F8F7F7;
+	border-radius: 10px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+main>div#window3>div#title {
+	padding: 5%;
+}
+
+main>div#window3>div#title>span {
+	font-size: 2vw;
+	color: #343434;
+	font-family: 'Rubik', sans-serif;
+}
+
+main>div#window3>div#product {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+main>div#window3>div#product>a {
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #FFF;
+	background-color: #343434;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	transition: 0.2s linear;
+}
+
+main>div#window3>div#product>a:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+main>div#window3>div#product>img#i1 {
+	width: 60.5%;
+}
+
+main>div#window3>div#product>img#i12 {
+	width: 30%;
+}
+
+main>div#window3>div#product>img#i13 {
+	width: 30%;
+}
+
+main>div#window3>div#product>a#i1 {
+	float: left;
+	margin-left: 19.7%;
+	width: 58.5%;
+	padding: 1%;
+	margin-top: 1%;
+}
+
+main>div#window3>div#product>img#i2 {
+	width: 60.5%;
+}
+
+main>div#window3>div#product>img#i22 {
+	width: 30%;
+}
+
+main>div#window3>div#product>img#i23 {
+	width: 30%;
+}
+
+main>div#window3>div#product>a#i2 {
+	float: left;
+	margin-left: 19.7%;
+	width: 58.5%;
+	padding: 1%;
+	margin-top: 1%;
+}
+
+main>div#window3>div#product>img#i3 {
+	width: 60.5%;
+}
+
+main>div#window3>div#product>img#i32 {
+	width: 30%;
+}
+
+main>div#window3>div#product>img#i33 {
+	width: 30%;
+}
+
+main>div#window3>div#product>a#i3 {
+	float: left;
+	margin-left: 19.7%;
+	width: 58.5%;
+	padding: 1%;
+	margin-top: 1%;
+}
+
+main>div#window3>div#product>img#i4 {
+	width: 60.5%;
+}
+
+main>div#window3>div#product>img#i42 {
+	width: 30%;
+}
+
+main>div#window3>div#product>img#i43 {
+	width: 30%;
+}
+
+main>div#window3>div#product>a#i4 {
+	float: left;
+	margin-left: 19.7%;
+	width: 58.5%;
+	padding: 1%;
+	margin-top: 1%;
+}
+
+footer {
+	width: 100%;
+	background-color: #f6f6f6;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+footer>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+footer>div#title>a {
+	text-decoration: none;
+	font-family: 'Rubic', sans-serif;
+	font-size: 2vw;
+	color: #343434;
+	transition: 0.2s linear;
+}
+
+footer>div#title>a:hover {
+	color: #827777;
+}
+
+.modalDialog1 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog1:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog1 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog1>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog1>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog1>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog1>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog1>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog1>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog1>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog2 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog2:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog2 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog2>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog2>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog2>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog2>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog2>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog2>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog2>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog3 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog3:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog3 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog3>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog3>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog3>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog3>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog3>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog3>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog3>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog4 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog4:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog4 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog4>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog4>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog4>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog4>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog4>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog4>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog4>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog5 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog5:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog5 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog5>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog5>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog5>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog5>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog5>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog5>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog5>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog6 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog6:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog6 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog6>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog6>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog6>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog6>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog6>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog6>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog6>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog7 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog7:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog7 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog7>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog7>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog7>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog7>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog7>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog7>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog7>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+
+
+
+.modalDialog8 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog8:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog8 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog8>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog8>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog8>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog8>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog8>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog8>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog8>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+
+
+.modalDialog9 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog9:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog9 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog9>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog9>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog9>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog9>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog9>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog9>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog9>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+
+
+
+.modalDialog10 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog10:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog10 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog10>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog10>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog10>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog10>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog10>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog10>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog10>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+
+
+
+.modalDialog11 {
+	position: fixed;
+	font-family: 'Rubik', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog11:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog11 > div {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 5px;
+	background: #f6f6f6;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.modalDialog11>div>div#title {
+	padding: 1%;
+	text-align: center;
+}
+
+.modalDialog11>div>div#title>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
+
+.modalDialog11>div>div#forms {
+	text-align: center;
+}
+
+.modalDialog11>div>div#forms>input {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-bottom: 1%;
+	margin-top: 2.5%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+}
+
+.modalDialog11>div>div#forms>button {
+	width: 35%;
+	padding: 2%;
+	background-color: #343434;
+	color: #FFF;
+	margin-top: 2%;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2vw;
+	box-shadow: 0 0 7px rgba(0,0,0,0.7);
+	border: none;
+	transition: 0.2s linear;
+}
+
+.modalDialog11>div>div#forms>button:hover {
+	box-shadow: 0 0 7px rgba(0,0,0,1);
+}
+
+.modalDialog11>div>div#forms>span {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5vw;
+	color: #343434;
+}
